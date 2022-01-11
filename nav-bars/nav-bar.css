@@ -137,8 +137,8 @@ li{
 }
 
 .nav_links li a:hover{
-    transition: all 0.3s ease 0s;
     font-weight: 800;  
     color: wheat;
+    transition: all 0.35s ease 0s;
 
 }
