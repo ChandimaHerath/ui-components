@@ -7,78 +7,28 @@
     font-family: sans-serif;
 }
 
-
-
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    background: #333;
-}
-.navigation{
-    position: relative;
-    width: 350px;
-    height: 70px;
-}
-
-
-.navigation ul {
     display: flex;
-}
-
-.navigation ul li {
-    position: relative;
-    list-style: none;
-    width: 70px;
-    height: 70px;
-    color: #fff;
-}
-
-.navigation ul li a span{
-    position: relative;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    color: #fff;
-    text-align: center;
-
-
 }
 
-.navigation ul li a .icon{
-    position: relative;
-    line-height: 75px;
-    transition: 0.5s;
-    font-size: 30px;
 
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 375px;
+    height: 75px;
+}
+
+.nav_item{
+    background-color: blue;
+    height: 70px;
+    width: 70px;
     
 }
 
-.navigation ul li.active a .icon{
-    font-size: 20px;
-    transform: translateY(-6px);
-} 
-
-.navigation ul li a .text{
-    position: absolute;
-    font-size: 20px;
-    color: #fff;
-    bottom: 0px;
-    font-weight: 400;
-    transition: 0.2s;
-    transform: scale(0);
-    text-align: center;
-}
-.navigation ul li:hover a .text{
-   
-    transform: scale(1);
-    text-align: center;
-}
-
-.navigation ul li:hover a .icon{
-   
-    transform: scale(1.25);
-    text-align: center;
-}
