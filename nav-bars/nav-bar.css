@@ -53,19 +53,68 @@ li{
 
 
 
-header{
+.header1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 10%;
     background-color:darkslategray;
+    margin-top: 50px;
      
 }
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color:darkslategray;
+    margin-top: 50px;
+}
+
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+
+
+}
+
+.header3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color:darkslategray;
+    margin-top: 50px;
+}
+
+
+.wrapper3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+    
+
+
+}
+
+
 
 .logo{
     cursor: pointer;
     background-color:darkslategray;
     color: white;
+
+}
+
+.logo:hover{
+    transform: scale(1.15);
+    transition: all 0.35s ease 0s;
 
 }
 
