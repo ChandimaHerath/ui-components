@@ -140,3 +140,16 @@ footer{
 .social_icons i:hover{
     color: #fff;
 }
+
+
+@media(max-width:588px){
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap:17px;
+       
+    }
+
+  
+}
