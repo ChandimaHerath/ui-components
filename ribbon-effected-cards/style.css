@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
 .card_wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: rgb(253, 253, 253);
     height: 100vh;
@@ -21,8 +22,41 @@
 .card{
     position: relative;
     height:650px;
-    width: 450px;
+    width: 500px;
     background-color: rgb(248, 248, 248);
     border-radius: 25px;
     box-shadow: 0px 10px 50px #2986ff80;
 }
+
+ .ribbon_box{
+    position:absolute;
+    top:-10px;
+    left:-10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ribbon_box::before{
+    content:'Best Offer';
+    position: absolute;
+    width: 250%;
+    height: 40px;
+    background: rgb(148, 21, 221);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+    }
+
+   
+
