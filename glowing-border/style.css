@@ -1,4 +1,8 @@
 
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
 body{
 margin: 0;
 padding: 0;
@@ -47,4 +51,13 @@ background: #060c21;
 .box:before,
 .box:after{
     background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
+.content{
+    padding: 20px;
+    color: #fff;
+}
+
+.content p{
+    font-weight: 600;
 }
